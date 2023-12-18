@@ -1,0 +1,202 @@
+header {
+	padding: 15px;
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 13px;
+}
+
+.inter a {
+	color: grey;
+	position: relative;
+	left: 110px;
+}
+
+.lien-a a {
+	color: gray;
+	position: relative;
+	left: 170px;
+	text-decoration: none;
+
+}
+
+.lien-a {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+}
+
+#matt {
+	color: white;
+	font-weight: bold;
+}
+.navv  {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+
+}
+
+.navbar {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+    gap: 25px;
+}
+
+.navbar a {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	position: relative;
+	left: 470px;
+	gap: 50px;
+	
+}
+
+.navbar .icon {
+	padding: 10px;
+}
+
+
+.logoo img {
+	width: 135px;
+	position: relative;
+	left: 150px;
+	margin: auto;
+	bottom: 100px;
+} 
+
+.nike {
+	background-image: url(nike1.jpg);
+	background-size: cover;
+	height: 600px;
+	position: relative;
+	bottom: 170px;
+    	
+
+}
+
+.bbg {
+	text-align: center;
+	position: relative;
+	top: 130px;
+	color: white;
+}
+
+h1 {
+	font-size: 75px;
+
+}
+
+.bbg p {
+	font-size: 25px;
+}
+
+button {
+	padding: 13px;
+	color: white;
+	background-color: transparent;
+	border: 3px white solid;
+}
+.twoo {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	margin: auto;
+	bottom: 100px;
+
+}
+button {
+	position: relative;
+	top: 90px;
+
+}
+
+.two img {
+	width: 700px;
+	height: 350px;
+}
+.twoo img {
+	width: 700px;
+	height: 350px;
+
+}
+
+
+.tof {
+	background-color: rgba(128, 128, 128, 0.185);
+	position: relative;
+	bottom: 170px;
+}
+
+.fa-solid {
+	position: relative;
+	left: 1000px;
+	font-size: 20px;
+	
+}
+
+.icon  {
+	
+display: flex;
+flex-direction: row;
+gap: 50px;
+} 
+
+
+@media screen and (max-width: 1000px) {
+
+	.inter a {
+		color: grey;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+	left: 5px;
+	}
+	.lien-a {
+		display: flex;
+		flex-direction: row;
+		gap: 40px;
+		position: relative;
+		right: 200px;
+	}
+
+	.navbar a {
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+		position: relative;
+		left: 5px;
+		
+	}
+	
+	.fa-solid  {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		left: 10px;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
